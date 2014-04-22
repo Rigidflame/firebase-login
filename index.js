@@ -25,7 +25,9 @@ module.exports = function (ref, data, callback) {
         request.get(tokenURL, function (error, response, body) {
             var data = JSON.parse(body);
             authToken = data.authToken;
-            ref.auth(authToken, callback);
+            ref.auth(authToken, function (err, data) {
+                callback(err, data, authToken);
+            });
         });
     });
 };
