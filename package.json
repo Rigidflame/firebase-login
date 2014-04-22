@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:abeisgreat/firebase-login.git"
+    "url": "git@github.com:rigidflame/firebase-login.git"
   },
   "keywords": [
     "firebase",
@@ -18,7 +18,7 @@
   "author": "Abraham Haskins <abe@rigidflame.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abeisgreat/firebase-login/issues"
+    "url": "https://github.com/rigidflame/firebase-login/issues"
   },
   "dependencies": {
     "request": "~2.34.0",
