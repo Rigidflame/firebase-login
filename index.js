@@ -14,7 +14,7 @@ module.exports = function (ref, data, callback) {
     firebaseName = firebaseName[1];
     var firebaseURL = 'https://' + firebaseName + '.firebaseio.com/';
 
-    data.cli = "0.2.0"; // Fake a CLI version
+    data.cli = "1.0.0"; // Fake a CLI version
 
     request.get(adminURL + 'account/login?' + querystring.stringify(data), function (error, response, body) {
         var data = JSON.parse(body);
