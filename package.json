@@ -1,6 +1,6 @@
 {
   "name": "firebase-login",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Authenticate into your Firebase using your Firebase account.",
   "main": "index.js",
   "scripts": {
