@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "firebase": "^2.2.3",
-    "firebase-login": "^0.1.2",
+    "firebase-login": "^1.0.0",
     "request": "^2.55.0"
   }
 }
